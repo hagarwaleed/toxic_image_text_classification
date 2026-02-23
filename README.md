@@ -64,7 +64,7 @@ Database file: `predictions.db`
 ---
 
 ### 🖼️ Image Classification Example
-![Image Example](assets/image1.png)
+![Image Example](assets/image2.png)
 
 ---
 
