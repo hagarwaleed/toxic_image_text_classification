@@ -9,6 +9,21 @@ This project is an AI-powered toxic content detection system that supports both:
 
 The system first generates a caption for an uploaded image, then classifies the generated caption using a fine-tuned text classification model.
 
+## 🏷️ Toxicity Categories
+
+| Class ID | Label                     |
+|----------|---------------------------|
+| 0        | Safe                      |
+| 1        | Violent Crimes            |
+| 2        | Elections                 |
+| 3        | Sex-Related Crimes        |
+| 4        | Unsafe                    |
+| 5        | Non-Violent Crimes        |
+| 6        | Child Sexual Exploitation |
+| 7        | Unknown S-Type            |
+| 8        | Suicide & Self-Harm       |
+
+
 The application is deployed using Streamlit.
 
 ---
