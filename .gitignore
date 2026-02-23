@@ -1,0 +1,7 @@
+toxic/
+__pycache__/
+*.pyc
+*.db
+.env
+model_folder/
+predictions.db
