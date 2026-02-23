@@ -58,6 +58,16 @@ Database file: `predictions.db`
 
 ---
 
+### 📝 Text Classification Example
+![Text Example](assets/image1.png)
+
+---
+
+### 🖼️ Image Classification Example
+![Image Example](assets/image1.png)
+
+---
+
 ## 🚀 How to Run the Project
 
 ### 1️⃣ Clone the Repository

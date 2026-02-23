@@ -4,7 +4,6 @@ from app.controllers.prediction_controller import (
     predict_from_image
 )
 from app.database.db import init_db
-import streamlit as st
 
 st.markdown(
     """
@@ -58,7 +57,10 @@ elif option == "Image":
     uploaded_file = st.file_uploader("Upload an image", type=["jpg", "png", "jpeg"])
 
     if uploaded_file is not None:
-        st.image(uploaded_file, caption="Uploaded Image", use_column_width=True)
+        col1, col2, col3 = st.columns([1, 2, 1])
+
+        with col2:
+            st.image(uploaded_file, caption="Uploaded Image", width=300)
 
         if st.button("Predict"):
             caption, label = predict_from_image(uploaded_file)
